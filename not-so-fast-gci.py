@@ -1,10 +1,12 @@
-import math
 
+#Loop to check if the input from user is valid
 while True:
     o = input('Please input n: ')
     if o:
-        n = int(o)
-        break
+        if o.isdigit():
+            n = int(o)
+            break
+#Check if the number is more than 0 and less than or equal to 1024
 if n > 0 and n <= 1024:
     answer = pow(2,n)
     print(answer)
