@@ -1,3 +1,6 @@
+#Not so fast task gci
+#By:- Akshay Tolwani
+#Username for gici:- akshayprogrammer
 
 #Loop to check if the input from user is valid
 while True:
